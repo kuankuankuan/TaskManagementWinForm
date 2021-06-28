@@ -1,0 +1,49 @@
+2020-05-11 19:44:42.5007 ERROR Произошла ошибка при выполнении определения команды. Дополнительные сведения приведены во внутреннем исключении.,    в System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   в System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   в System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   в System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   в System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в TaskManagementLibrary.DataModel.TaskModel.GetAdminTasksViewAsNoTracking() в C:\Users\kuan2\source\repos\TaskManagementWinForm\TaskManagementLibrary\DataModel\TaskModel.cs:строка 925
+   в TaskManagementWinForm.UI.MainForm.TasksUpdateButton_Click(Object sender, EventArgs e) в C:\Users\kuan2\source\repos\TaskManagementWinForm\TaskManagementWinForm\UI\MainForm.cs:строка 153
+   в TaskManagementWinForm.UI.MainForm.MainForm_KeyDown(Object sender, KeyEventArgs e) в C:\Users\kuan2\source\repos\TaskManagementWinForm\TaskManagementWinForm\UI\MainForm.cs:строка 229
+2020-05-11 19:44:43.9412 ERROR Произошла ошибка при выполнении определения команды. Дополнительные сведения приведены во внутреннем исключении.,    в System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   в System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   в System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   в System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   в System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в TaskManagementLibrary.DataModel.TaskModel.GetAdminTasksViewAsNoTracking() в C:\Users\kuan2\source\repos\TaskManagementWinForm\TaskManagementLibrary\DataModel\TaskModel.cs:строка 925
+   в TaskManagementWinForm.UI.MainForm.TasksUpdateButton_Click(Object sender, EventArgs e) в C:\Users\kuan2\source\repos\TaskManagementWinForm\TaskManagementWinForm\UI\MainForm.cs:строка 153
+   в TaskManagementWinForm.UI.MainForm.MainForm_KeyDown(Object sender, KeyEventArgs e) в C:\Users\kuan2\source\repos\TaskManagementWinForm\TaskManagementWinForm\UI\MainForm.cs:строка 229
+2020-05-11 19:50:26.7202 ERROR Ошибка при прохождении авторизации
+2020-05-11 19:50:26.8102 ERROR Произошла ошибка при выполнении определения команды. Дополнительные сведения приведены во внутреннем исключении.,    в System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   в System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   в System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   в System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   в System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в TaskManagementLibrary.DataModel.TaskModel.GetAdminTasksViewAsNoTracking() в C:\Users\kuan2\source\repos\TaskManagementWinForm\TaskManagementLibrary\DataModel\TaskModel.cs:строка 925
+   в TaskManagementWinForm.UI.MainForm.TasksUpdateButton_Click(Object sender, EventArgs e) в C:\Users\kuan2\source\repos\TaskManagementWinForm\TaskManagementWinForm\UI\MainForm.cs:строка 159
+   в TaskManagementWinForm.UI.MainForm..ctor() в C:\Users\kuan2\source\repos\TaskManagementWinForm\TaskManagementWinForm\UI\MainForm.cs:строка 52
+   в TaskManagementWinForm.UI.AutorizationForm.AutorizationButton_Click(Object sender, EventArgs e) в C:\Users\kuan2\source\repos\TaskManagementWinForm\TaskManagementWinForm\UI\AutorizationForm.cs:строка 69
+2020-05-11 20:02:36.3738 ERROR Ошибка при редактировании задачи
+2020-05-11 20:02:56.3483 ERROR Ошибка при редактировании задачи
+2020-05-11 20:03:02.5956 ERROR Ошибка при редактировании задачи
+2020-05-11 20:06:04.1109 ERROR Ошибка при редактировании задачи
+2020-05-11 20:06:09.1423 ERROR Ошибка при редактировании задачи
